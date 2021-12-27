@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>EoflaOE</Authors>
+    <Company>EoflaOE</Company>
+    <Product>NameNumerizer</Product>
+    <Description>This program lets you numerize all the tracks that are found in the folder of your choice.
+
+From the makers of Kernel Simulator.</Description>
+    <Copyright>Copyright (c) 2021 - 2022 EoflaOE and its companies</Copyright>
+    <PackageProjectUrl>https://github.com/EoflaOE/NameNumerizer</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/EoflaOE/NameNumerizer</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>numerize; name; filesystem; vb.net; c#</PackageTags>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
