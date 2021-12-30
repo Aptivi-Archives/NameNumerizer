@@ -23,6 +23,9 @@
  * 
  */
 
+using System.Collections.Generic;
+using System.IO;
+
 namespace NameNumerizer.Core.Tools
 {
     public static class Numerizer
@@ -35,7 +38,7 @@ namespace NameNumerizer.Core.Tools
         public static void NumerizeFiles(string Path, string[] Extensions)
         {
             string[] Files = Directory.GetFiles(Path);
-            List<string> EnumeratedFiles = new();
+            List<string> EnumeratedFiles = new List<string>();
 
             // Filter the files that we don't need to numerize
             foreach (string File in Files)
