@@ -1,0 +1,31 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: NameNumerizer.Core.Tools
+  name: NameNumerizer.Core.Tools
+  href: api/NameNumerizer.Core.Tools.html
+  commentId: N:NameNumerizer.Core.Tools
+  fullName: NameNumerizer.Core.Tools
+  nameWithType: NameNumerizer.Core.Tools
+- uid: NameNumerizer.Core.Tools.Numerizer
+  name: Numerizer
+  href: api/NameNumerizer.Core.Tools.Numerizer.html
+  commentId: T:NameNumerizer.Core.Tools.Numerizer
+  fullName: NameNumerizer.Core.Tools.Numerizer
+  nameWithType: Numerizer
+- uid: NameNumerizer.Core.Tools.Numerizer.NumerizeFiles(System.String,System.String[])
+  name: NumerizeFiles(String, String[])
+  href: api/NameNumerizer.Core.Tools.Numerizer.html#NameNumerizer_Core_Tools_Numerizer_NumerizeFiles_System_String_System_String___
+  commentId: M:NameNumerizer.Core.Tools.Numerizer.NumerizeFiles(System.String,System.String[])
+  name.vb: NumerizeFiles(String, String())
+  fullName: NameNumerizer.Core.Tools.Numerizer.NumerizeFiles(System.String, System.String[])
+  fullName.vb: NameNumerizer.Core.Tools.Numerizer.NumerizeFiles(System.String, System.String())
+  nameWithType: Numerizer.NumerizeFiles(String, String[])
+  nameWithType.vb: Numerizer.NumerizeFiles(String, String())
+- uid: NameNumerizer.Core.Tools.Numerizer.NumerizeFiles*
+  name: NumerizeFiles
+  href: api/NameNumerizer.Core.Tools.Numerizer.html#NameNumerizer_Core_Tools_Numerizer_NumerizeFiles_
+  commentId: Overload:NameNumerizer.Core.Tools.Numerizer.NumerizeFiles
+  isSpec: "True"
+  fullName: NameNumerizer.Core.Tools.Numerizer.NumerizeFiles
+  nameWithType: Numerizer.NumerizeFiles
