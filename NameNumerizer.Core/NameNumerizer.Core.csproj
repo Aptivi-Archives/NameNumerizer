@@ -19,11 +19,24 @@ From the makers of Kernel Simulator.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <AssemblyVersion>1.0.0.1</AssemblyVersion>
     <FileVersion>1.0.0.1</FileVersion>
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.2</Version>
+    <ApplicationIcon>OfficialAppIcon-NameNumerizer.ico</ApplicationIcon>
+    <PackageIcon>OfficialAppIcon-NameNumerizer-512.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="OfficialAppIcon-NameNumerizer.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="OfficialAppIcon-NameNumerizer-512.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
