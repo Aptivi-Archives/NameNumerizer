@@ -21,13 +21,8 @@ From the makers of Kernel Simulator.</Description>
     <FileVersion>1.0.0.2</FileVersion>
     <Version>1.0.0.2</Version>
     <PackageVersion>1.0.0.2</PackageVersion>
-    <ApplicationIcon>OfficialAppIcon-NameNumerizer.ico</ApplicationIcon>
     <PackageIcon>OfficialAppIcon-NameNumerizer-512.png</PackageIcon>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Content Include="OfficialAppIcon-NameNumerizer.ico" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\README.md">
