@@ -1,41 +1,67 @@
-## NameNumerizer
 
-This program lets you numerize all the tracks that are found in the folder of your choice. It renames all the tracks to the format that has the track number prior to the artist and the song name. For example:
-```
-Before: Allen Watts & Chris Schweizer - Cabrones (Extended Mix).mp3
-After:  012. Allen Watts & Chris Schweizer - Cabrones (Extended Mix).mp3
-        It's not necessarily number 12. It could be any position in your tracklist.
-```
-It's written in plain C# with no external dependencies.
+<div align = center>
 
-### Limitations
+<br>
+<br>
+    
+<img
+  src = 'https://cdn.jsdelivr.net/gh/Aptivi/NameNumerizer@main/NameNumerizer.Core/OfficialAppIcon-NameNumerizer-512.png'
+  width = 256
+  align = center
+/>
 
-Currently, the console application only supports numerizing the tracks that are in these formats: `.mp3, .wav, .ogg, .aac`. However, we hope to expand the support in the future. Meanwhile, use the core library provided.
+<br>
 
-This library doesn't support .NET Framework 4.8 yet! Sorry about that.
+# NameNumerizer
+    
+*A library that numerizes all the track file names in the album format.*
 
-### License
+<br>
+<br>
 
-```
-MIT License
+[![Badge Main]][Main]   
+[![Badge Main Linux]][Main Linux]
 
-Copyright (c) 2021 EoflaOE and its companies
+[![Badge Latest]][Latest]   
+[![Badge NuGet]][NuGet]
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+![Badge Size]   
+[![Badge Downloads]][Releases]
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+[![Button Manual]][Manual]   
+[![Button Libraries]][Libraries]
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+</div>
+    
+<br>
+
+</div>
+
+
+<!----------------------------------------------------------------------------->
+
+[Releases]: https://github.com/Aptivi/NameNumerizer/releases
+[Latest]: https://github.com/Aptivi/NameNumerizer/releases/latest
+[NuGet]: https://www.nuget.org/packages/NameNumerizer.Core/
+
+[Main]: https://github.com/Aptivi/NameNumerizer/actions/workflows/build-win.yml
+[Main Linux]: https://github.com/Aptivi/NameNumerizer/actions/workflows/build-linux.yml
+
+[Libraries]: https://aptivi.gitbook.io/namenumerizer-manual/project-dependencies
+[Manual]: https://aptivi.gitbook.io/namenumerizer-manual/
+
+<!----------------------------------[ Badges ]--------------------------------->
+
+[Badge Downloads]: https://img.shields.io/github/downloads/Aptivi/NameNumerizer/total?color=217346&label=Downloads&style=for-the-badge&logoColor=white&logo=DocuSign&labelColor=2d9d5f
+[Badge Latest]: https://img.shields.io/github/v/release/Aptivi/NameNumerizer?color=212121&include_prereleases&label=github&style=for-the-badge&logoColor=white&logo=AzureArtifacts&labelColor=303030
+[Badge NuGet]: https://img.shields.io/nuget/vpre/NameNumerizer.Core?color=012f52&style=for-the-badge&logoColor=white&logo=NuGet&labelColor=004880
+[Badge Size]: https://img.shields.io/github/repo-size/Aptivi/NameNumerizer?color=bb4a28&label=size&logoColor=white&style=for-the-badge&logo=GoogleAnalytics&labelColor=E85C33
+
+[Badge Main]: https://github.com/Aptivi/NameNumerizer/actions/workflows/build-win.yml/badge.svg
+[Badge Main Linux]: https://github.com/Aptivi/NameNumerizer/actions/workflows/build-linux.yml/badge.svg
+
+
+<!---------------------------------[ Buttons ]--------------------------------->
+
+[Button Libraries]: https://img.shields.io/badge/Libraries-EA8220?style=for-the-badge&logoColor=white&logo=AzureArtifacts
+[Button Manual]: https://img.shields.io/badge/Docs-blueviolet?style=for-the-badge&logoColor=white&logo=GitBook
