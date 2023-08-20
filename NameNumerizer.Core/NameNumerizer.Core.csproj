@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <IncludeSymbols>True</IncludeSymbols>
     <Authors>Aptivi</Authors>
     <Company>Aptivi</Company>
     <Product>NameNumerizer</Product>
-    <Description>This program lets you numerize all the tracks that are found in the folder of your choice.
-
-From the makers of Kernel Simulator.</Description>
+    <Description>This program lets you numerize all the tracks that are found in the folder of your choice.</Description>
     <Copyright>Copyright (c) 2021 - 2022 Aptivi</Copyright>
     <PackageProjectUrl>https://github.com/Aptivi/NameNumerizer</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
