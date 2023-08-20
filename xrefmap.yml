@@ -14,13 +14,13 @@ references:
   fullName: NameNumerizer.Core.Tools.Numerizer
   nameWithType: Numerizer
 - uid: NameNumerizer.Core.Tools.Numerizer.NumerizeFiles(System.String,System.String[])
-  name: NumerizeFiles(String, String[])
+  name: NumerizeFiles(string, string[])
   href: api/NameNumerizer.Core.Tools.Numerizer.html#NameNumerizer_Core_Tools_Numerizer_NumerizeFiles_System_String_System_String___
   commentId: M:NameNumerizer.Core.Tools.Numerizer.NumerizeFiles(System.String,System.String[])
   name.vb: NumerizeFiles(String, String())
-  fullName: NameNumerizer.Core.Tools.Numerizer.NumerizeFiles(System.String, System.String[])
-  fullName.vb: NameNumerizer.Core.Tools.Numerizer.NumerizeFiles(System.String, System.String())
-  nameWithType: Numerizer.NumerizeFiles(String, String[])
+  fullName: NameNumerizer.Core.Tools.Numerizer.NumerizeFiles(string, string[])
+  fullName.vb: NameNumerizer.Core.Tools.Numerizer.NumerizeFiles(String, String())
+  nameWithType: Numerizer.NumerizeFiles(string, string[])
   nameWithType.vb: Numerizer.NumerizeFiles(String, String())
 - uid: NameNumerizer.Core.Tools.Numerizer.NumerizeFiles*
   name: NumerizeFiles
