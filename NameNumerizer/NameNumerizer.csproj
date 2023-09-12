@@ -7,6 +7,8 @@
     <Nullable>enable</Nullable>
     <IsPublishable>False</IsPublishable>
     <ApplicationIcon>OfficialAppIcon-NameNumerizer.ico</ApplicationIcon>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\aptivi_snk.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
