@@ -30,7 +30,7 @@
         ],
         "dest": "../docs",
         "globalMetadata": {
-            "_appTitle": "NameNumerizer API - Aptivi Internals",
+            "_appTitle": "NameNumerizer API - Aptivi",
             "_enableSearch": true
         },
         "globalMetadataFiles": [],
