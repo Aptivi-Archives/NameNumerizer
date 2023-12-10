@@ -27,6 +27,9 @@ using System.IO;
 
 namespace NameNumerizer.Core.Tools
 {
+    /// <summary>
+    /// Name numerization tools
+    /// </summary>
     public static class Numerizer
     {
         /// <summary>
